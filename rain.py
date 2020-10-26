@@ -8,7 +8,7 @@ class Rain:
         self.screen = screen
         self.x = x
         self.y = y
-        self.yspeed = 0.5
+        self.yspeed = 10
 
     def draw_rain(self):
         Line(self.screen, (177, 52, 235), (self.x, self.y), (self.x, self.y + 10), 2)
