@@ -4,7 +4,7 @@ from rain import *
 ## diplay settings
 largura, altura = 450, 300
 screen = pygame.display.set_mode((largura, altura))
-title = pygame.display.set_caption("purple rain from the coding train - IN PYTHON!")
+title = pygame.display.set_caption("The rain behind the slaughter")
 
 ## variables
 drops = []
